@@ -12,9 +12,9 @@ development:
   database: int_shop_development
   pool: 5
   username: root
-  password:
+  password: my2345sql
   host: 127.0.0.1 
-  port: 5432
+  port: 3306
   #host: localhost
 
 # Warning: The database defined as "test" will be erased and

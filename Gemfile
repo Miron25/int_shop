@@ -1,11 +1,25 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.8'
+gem 'rails', '3.0.7'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2', '~> 0.2.6'
+#gem 'mysql2', '~> 0.2.6'
+gem 'mysql2', '0.2.7'
+gem 'russian', :git => 'git://github.com/yaroslav/russian.git'
+gem 'spree', :git => 'git://github.com/spree/spree.git', :branch => '0-60-stable' 
+# либо gem 'spree', '>= 0.50.2'
+gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git'
+gem 'spree_static_content'
+gem 'spree_editor'
+gem 'spree_online_support'
+gem 'spree_robokassa'
+gem 'spree_yandex_market'
+gem 'spree_address_book'
+gem 'spree_dynamic_sitemaps'
+gem 'synergy', '~> 0.50.0'
+gem 'synergy_default_theme', '1.0.1'
 
 # Use unicorn as the web server
 # gem 'unicorn'
